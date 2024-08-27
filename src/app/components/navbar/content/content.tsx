@@ -123,7 +123,7 @@ const Content = () => {
       <div className={styles.discription}>
         <p>
           We believe the world is more beautiful as each person gets skills <br />
-          and knows how to implement them. We don't give our students <br />
+          and knows how to implement them. We don give our students <br />
           only lectures but professional training as well.
         </p>
       </div>
