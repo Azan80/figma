@@ -1,0 +1,14 @@
+/* globals.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  right: 0;
+  left: 1vh;
+  height: 100%;
+  width: 100%;
+  box-sizing:border-box;
+  position: relative;
+
+
+}
+
