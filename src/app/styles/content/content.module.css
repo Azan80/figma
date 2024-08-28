@@ -614,3 +614,101 @@ margin-left: 33%;
   }
 
 }
+.Container4{
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+  position: relative;
+  background:rgb(255, 255, 255);
+  margin: 0 auto;
+  margin-bottom: 2%;
+  height: auto;
+  min-height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.chooseHead{
+  display: flex;
+margin-left: 2%;
+color: #545353;
+
+}
+.offers {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  gap: 20px;
+}
+.offers p{
+  font-size:20px;
+  margin-top: -10%;
+}
+
+.offerItem  {
+  flex: 1; 
+  text-align: center; 
+  max-width: 300px; 
+}
+.offerItem h3 {
+color: #545395;
+font-size: 40px;
+
+}
+.offerItem1{
+  flex: 1; 
+  text-align: center; 
+  max-width: 300px; 
+}
+.offerItem1 h3 {
+  color: #F44E00;
+  font-size: 40px;
+  white-space: nowrap;
+}
+.offerItem2{
+  flex: 1; 
+  text-align: center; 
+  max-width: 300px; 
+}
+.offerItem2 h3 {
+color: #8C4067;
+font-size: 40px;
+
+}
+@media (max-width:850px) {
+  .Container4{
+    margin-left: 3%;
+  }
+  .offers{
+    display:list-item;
+
+    
+  }
+  .offerItem, .offerItem1, .offerItem2 {
+    text-align: left;
+  }
+  
+}
+/* .Container5 {
+  
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+  background-image: url('/img/image_720.png'); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  margin: 0 auto;
+  margin-bottom: 2%;
+  height: auto;
+  min-height: 200px;
+  display:flex; 
+  justify-content: center;
+  align-items: center;
+}
+.Students{
+  display: list-item;
+}
+.Students h2{
+color: #3B3B3C;
+
+} */

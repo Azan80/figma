@@ -50,7 +50,9 @@ const Navbar = () => {
           <button className={styles.loginButton}>Login</button>
           <button className={styles.joinButton}>Join for Free</button>
         </div>
+        
       </div>
+      
     </div>
   );
 };

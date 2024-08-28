@@ -373,6 +373,51 @@ full access free trial</p>
       </div>
     
       </div>
+      <div className={styles.Container4}>
+
+        <h1 className={styles.chooseHead}>Why Choose Us</h1>
+        <div className={styles.offers}>
+      <div className={styles.offerItem}>
+        <h3>Expert Mentor</h3>
+        <p>
+          We have an expert mentor for our<br />
+          students, who guide them<br />
+          towards success.
+        </p>
+      </div>
+      <div className={styles.offerItem1}>
+        <h3>Child Management</h3>
+        <p>
+        We have an experts mentor for our
+students, who guide them 
+towards success.
+        </p>
+      </div>
+      <div className={styles.offerItem2}>
+        <h3>Group Study</h3>
+        <p>
+        We have an experts mentor for our
+students, who guide them 
+towards success.
+        </p>
+      </div>
+    </div>
+
+    {/* <div className={styles.Container5}>
+      <div className={styles.Students}>
+
+      
+      <h2>What Our Students Say</h2>
+      <p>Thank you for this course. I get to know experience<br></br> and knowledge in using different kinds of online <br></br>
+tools which are useful and effective. I'll use <br></br>
+some of them during my lessons. And <br></br>
+lots of thanks</p>
+
+</div>
+      
+    </div> */}
+ 
+      </div>
     </div>
   );
 };
