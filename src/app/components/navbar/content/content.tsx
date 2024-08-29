@@ -412,7 +412,7 @@ towards success.
       <p>
         Thank you for this course. I get to know experience<br />
         and knowledge in using different kinds of online<br />
-        tools which are useful and effective. I'll use<br />
+        tools which are useful and effective. Ill use<br />
         some of them during my lessons. And<br />
         lots of thanks
       </p>
