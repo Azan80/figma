@@ -108,6 +108,7 @@ const Lecture = courses[index] ? courses[index].lectures:''
 const Clock = courses[index] ? courses[index].clock:""
 
 
+
   const toggleCourses = () => {
     setVisibleCourses(showAll ? 3 : courses.length);
     setShowAll(!showAll);
@@ -403,20 +404,45 @@ towards success.
       </div>
     </div>
 
-    {/* <div className={styles.Container5}>
-      <div className={styles.Students}>
-
-      
+    <div className={styles.Container5}>
+  <div className={styles.BackGroundWrapper}>
+    <div className={styles.BackGroundImg} />
+    <div className={styles.Students}>
       <h2>What Our Students Say</h2>
-      <p>Thank you for this course. I get to know experience<br></br> and knowledge in using different kinds of online <br></br>
-tools which are useful and effective. I'll use <br></br>
-some of them during my lessons. And <br></br>
-lots of thanks</p>
-
+      <p>
+        Thank you for this course. I get to know experience<br />
+        and knowledge in using different kinds of online<br />
+        tools which are useful and effective. I'll use<br />
+        some of them during my lessons. And<br />
+        lots of thanks
+      </p>
+    </div>
+    <div className={styles.StudentImageContainer}>
+      <div className={styles.stdImg1}>
+        <Image  
+src='/students/image_360.png' alt="Student 1" width={54} height={54} className={styles.stdIcon1} />
+      </div>
+      <div className={styles.stdImg2}>
+        <Image src='/img/pic/image_360-7.png' alt="Student 2"width={54} height={54}className={styles.stdIcon2} />
+      </div>
+      <div className={styles.stdImg3}>
+        <Image  style={{
+  border: '4px solid white',
+}}src='/students/image_360-1.png' alt="Student 3" width={54} height={54}className={styles.stdIcon3} />
+        <h6>David Warner</h6>
+        <p>Student</p>
+      </div>
+      <div className={styles.stdImg4}>
+        <Image src='/img/pic/image_360-10.png' alt="Student 4" width={54} height={54} className={styles.stdIcon4} />
+      </div>
+      <div className={styles.stdImg5}>
+        <Image src='/img/pic/image_360-11.png' alt="Student 5"width={54} height={54} className={styles.stdIcon5} />
+      </div>
+    </div>
+  </div>
 </div>
-      
-    </div> */}
- 
+
+
       </div>
     </div>
   );
