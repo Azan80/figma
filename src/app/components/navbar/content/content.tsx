@@ -260,7 +260,7 @@ const Clock = courses[index] ? courses[index].clock:""
                   <span className={styles.lectures}>{course.lectures} Lecture</span>
                 </div>
                 <div className={styles.footer}>
-                  <span className={styles.price}>{course.price}.00</span>
+                  <span className={styles.price}>${course.price}.00</span>
                   <div className={styles.rating}>
                     {'★'.repeat(course.rating) + '☆'.repeat(5 - course.rating)}
                   </div>

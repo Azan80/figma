@@ -2,7 +2,8 @@
 
 .container {
   margin: 0 auto;
-  padding: 0;
+  margin-left: 2vh;
+  margin-right: 2vh;
   position: relative;
   flex-direction: column;
   align-items: center;
@@ -463,8 +464,8 @@
   cursor: pointer;
 }
 .container3 {
-  width: 90%;
-  max-width: 1200px;
+  width: 100%;
+
   box-sizing: border-box;
   position: relative;
   background: linear-gradient(90deg, #dc2424 10%, #4a569d);
@@ -614,9 +615,20 @@ margin-left: 33%;
   }
 
 }
+@media (min-width:1920px) {
+  .EnrollBtn{
+    margin-top: 1%;
+    margin-left: 80%;
+    margin-top: -10%;
+  }
+  .Enroll{
+    margin-left: 67%;
+  }
+
+}
 .Container4{
   width: 100%;
-  max-width: 1200px;
+
   box-sizing: border-box;
   position: relative;
   background:rgb(255, 255, 255);
@@ -627,6 +639,7 @@ margin-left: 33%;
   justify-content: center;
   align-items: center;
 }
+
 .chooseHead{
   display: flex;
 margin-left: 2%;
@@ -702,7 +715,7 @@ font-size: 20px;
   position: relative;
   width: 100%;
 height: 470px;
-  overflow: hidden; 
+ 
   margin-bottom: 10vh;
 }
 
@@ -730,8 +743,7 @@ height: 470px;
   padding: 20px;
   color: #3B3B3C;
   z-index: 1; 
-  max-width: 600px; 
-  margin: auto;
+
   
 }
 
@@ -839,4 +851,11 @@ margin-left: 30%;
   .StudentImageContainer{
     margin-top: 30%;
   }
+}
+@media (min-width:1920px) {
+  .Container5{
+    height: 800px;
+  }
+ 
+ 
 }
